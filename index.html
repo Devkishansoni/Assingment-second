@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="changeback">
+        <h1 id="selecthd">Selecting Elements</h1>
+        <h1 class="selecthd1" id="selectHD">Selecting Elements -- 1</h1>
+        <img id="imgchange" src="https://img.freepik.com/free-photo/umbrella-chair-with-pillow-around-beautiful-landscape-beach-sea_74190-8174.jpg?w=826&t=st=1704189683~exp=1704190283~hmac=9376f3fc12363067f23a136ea0ac5be78a59b233ef7f7a07501362c685d3ef37" />
+    
+        <button onclick="hideText()">Text changes</button>
+        <button onclick="visibleText()">Visible text</button>
+    </div>
+
+
+    <script>
+
+        // ...........Document Object Model..............
+
+
+                    // 1.Selecting Elements....
+
+                            // a.Write a function to select an HTML element by its ID....
+                            // b.Write a function to select all elements with a specific class....
+
+                                    // let text = document.getElementById("selecthd");
+                                    // let text1 = document.getElementsByClassName("selecthd1");
+
+                                    // console.log(text);
+                                    // console.log(text1);
+
+                    // 2.Manipulating Elements....
+
+                            // a.Create a function that changes the text content of a given element....
+                            // b.Implement a function to hide an element on the page....
+
+                                    // let text = document.getElementById("selecthd").textContent = "Text Changes";
+                                    // let text1 = document.getElementsById("selectHD").textContent = "Text Changes---1";
+
+                                    // function hideText(){
+                                    //         let text = document.getElementById("selecthd").textContent = "";
+                                    //         let text1 = document.getElementById("selectHD").textContent = "";
+                                    // }
+
+                    // 3.Adding and Removing Elements.....
+
+                                    // a.Write a script to dynamically create an HTML element and append
+                                    //   it to the DOM.....
+                                    // b.Create a function that removes an element from the DOM.....
+
+
+                                    // let text = document.getElementById("selecthd").textContent = "Text Changes";
+                                    // let text1 = document.getElementsById("selectHD").textContent = "Text Changes---1";
+
+                                    // function hideText(){
+                                    //         let text = document.getElementById("selecthd").textContent = "";
+                                    //         let text1 = document.getElementById("selectHD").textContent = "";
+                                    // }
+
+                    // 4.Event Handling.....
+
+                                    // a.Set up an event listener for a button click that triggers a function......
+                                    // b.Write a script that changes the background color of a div when it is
+                                    //   clicked.....
+
+                                    // function hideText(){
+                                    //         let text = document.getElementById("changeback").style.backgroundColor = "skyblue";
+                                    // }
+
+                    // 5.Modifying Styles.....
+
+                                    // a.Create a function to toggle a CSS class on an element.....
+                                    // b.Write a script to change the font size of a paragraph when the user
+                                    //   hovers over it.....
+
+                                        // let text = document.getElementById("selecthd").style.fontSize = `${5}rem`;
+                                        // let text1 = document.getElementsById("selectHD").style.fontSize = `${5}rem`;
+
+
+
+
+
+                
+
+         // ...................Action methods....................
+
+                // 1.Button Click Event......
+
+                                // a.Create a button on a webpage, and write a function that gets
+                                //   triggered when the button is clicked. Update the content of an
+                                //   HTML element when the button is clicked.......
+                                    
+
+                                    
+                                    // function hideText(){
+                                    //     let text = document.getElementById("selecthd").textContent = "Hello Dear Students";
+                                    //     let text1 = document.getElementsById("selectHD").textContent = "Now, We are going to learn JavaScript Language...";
+                                    // }
+
+                // 2.Toggle Visibility....
+
+                                // a.Implement a script that toggles the visibility of an element when a
+                                //   button is clicked. If the element is visible, hide it; if it's hidden,
+                                //   show it.....
+
+                                    // function hideText(){
+                                    //     let text = document.getElementById("selecthd").textContent = "";
+                                    // }
+                                    // function visibleText(){
+                                    //     let text = document.getElementById("selecthd").textContent = "Hello Dear Students";
+                                    // }
+
+                // 3.Double Click Event.....
+
+                                // a.Implement a function that is triggered when an image is doubleclicked. Change the image source or perform any other action of
+                                //   your choice....
+
+                                
+                                    // function hideText(){
+                                    //     let text = document.getElementById("imgchange").src = "https://img.freepik.com/premium-photo/orange-beach-chairs-parasols-sandy-beach-with-morning-sky-sea_43913-85.jpg?w=826";
+                                    // }
+
+                
+
+        // ......................Array.............
+    
+                // 1.Array Initialization......
+
+                                // a.Create an array with at least five different types of data (string,
+                                //   number, boolean, etc.). Log the array to the console......
+
+                                    // let arr = ["hello",true,1,null,undefined];
+
+                // 2.Array Access and Modification....
+
+                            //    a.Access and log the third element of an existing array. Modify the
+                            //      value of the second element and log the updated array.....
+
+                                    // let arr = [1,3,5,6,8,2];
+                                    // console.log(arr[3])
+                                    // arr[2] = "Hello";
+
+                                    // console.log(arr)
+
+                // 3.Array Iteration - For Loop....
+
+                            //a. Use a for loop to iterate through each element of an array and log
+                            // each element to the console.....
+
+                            // let arr = [1,3,5,6,8,2];
+
+                            // for(let i=0; i<arr.length; i++){
+                            //     console.log(arr[i])
+                            // }
+                                
+                // 4.Array Iteration - ForEach....
+
+                            //a. Rewrite the previous question using the forEach method to iterate
+                            // through an array and log each element.....
+
+                            // let arr = [1,3,5,6,8,2];
+                            // arr.forEach((val,ind,a)=>{
+                            //     console.log(val," ",ind," ",a)
+                            // })
+
+                // 5.Array Mapping....
+
+                            // a.Create an array of strings and use the map method to create a new
+                            //   array where each string is appended with " - processed."...
+
+                                    // let arr = ["hello","hi","what's up"];
+                                    // arr.map((val)=>{
+                                    //     console.log(val)
+                                    // })
+
+                // 6.Array Sorting.....
+
+                            // a.Create an array of strings and use the sort method to sort the
+                            //   array in alphabetical order.....
+                            
+                                        // let arr = ["a","c","d","b"];
+                                        // console.log(arr.sort())
+                            
+                // 7.Array Splicing.....
+
+                            // a.Create an array and use the splice method to remove the second
+                            //   and third elements from the array......
+
+                                        // let arr = ["a","c","d","b","e","f"];
+                                        // arr.splice(1,2);
+                                        // console.log(arr)
+
+                // 8.Array Concatenation.....
+
+                            // a.Create two arrays and use the concat method to concatenate
+                            //   them into a new array. Log the resulting array....
+
+                                        // let arr = ["hello","king khan"];
+                                        // let arr1 = ["what's up beb"];
+                                        // console.log(arr.concat(arr1))
+
+                
+        // ................Object...............
+
+                // 1.Object Creation....
+
+                            // a.Create an object representing a person with properties such as
+                            //   name, age, and gender. Log the object to the console.....
+
+                                        let obj = {
+                                            name: "kishan Soni",
+                                            age : 22,
+                                            gender: "Male",
+                                        }
+                                        console.log(obj.name)
+
+                                    
+    </script>
+</body>
+</html>
